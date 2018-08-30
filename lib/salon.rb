@@ -1,4 +1,4 @@
-require 'hairdresser'
+require_relative './lib/hairdresser'
 
 class Salon < Hairdresser
 
@@ -10,4 +10,3 @@ attr_reader :name
 
 
 end
-

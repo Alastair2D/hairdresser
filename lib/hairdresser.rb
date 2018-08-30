@@ -1,11 +1,11 @@
-require 'barber'
-require 'salon'
-
 class Hairdresser
 
-def cut_hair
- "snip snip"
-end
+  def initialize(name)
+    @name = name
+  end
 
+  def cut_hair
+    "snip snip"
+  end
 
 end

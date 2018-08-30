@@ -1,9 +1,15 @@
-require 'hairdresser'
+require_relative './hairdresser'
 
 class Barber < Hairdresser
 
-def initalize(name)
-  @name = name
-end
+attr_reader :price
+
+  def initalize
+    @price = 10
+  end
+
+  def cut_hair
+    "buzz buzz"
+  end
 
 end
